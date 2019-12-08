@@ -1,66 +1,125 @@
 <!DOCTYPE html>
-<!-- source: https://github.com/erengy/under-construction/blob/master/index.html -->
-<html lang="en">
-  <head>
+<html class="text-center">
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>AbracadabraDB.com</title>
-    <style type="text/css">
-      html, body {
-        height: 100%;
-      }
-      body {
-        background-color: #fff;
-        background: radial-gradient(circle at center, #fff 0%, #f8f8f8 75%, #ebebeb 100%);
-        color: #222;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-        font-size: 1rem;
-        line-height: 1.5;
-        margin: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      main {
-        padding: 1rem;
-        text-align: center;
-      }
-      h1 {
-        font-size: 2.5rem;
-        line-height: 1.1;
-        margin: 0;
-      }
-      @media screen and (max-width: 480px) {
-        h1 {
-          font-size: 1.5rem;
-        }
-      }
-      h1::after {
-        content: "";
-        background-color: #ffe800;
-        background: repeating-linear-gradient(45deg, #ffe800, #ffe800 0.5rem, #222 0.5rem, #222 1.0rem);
-        display: block;
-        height: 0.5rem;
-        margin-top: 1rem;
-      }
-      p {
-        margin: 1rem 0 0 0;
-      }
-    </style>
-  </head>
-  <body>
-    <main>
-      <svg xmlns="http://www.w3.org/2000/svg" width="500" viewBox="0 0 1197 1197" shape-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd">
-        <path d="M0 0h1197v1197H0z" fill="#fff"/>
-        <path d="M524 325V152h67c15 0 28 2 39 7 11 4 21 11 28 18 8 8 13 17 17 28 4 10 6 21 6 33 0 13-2 25-7 36-4 10-10 19-18 27s-17 13-28 17c-11 5-24 7-37 7h-67zm121-87c0-8-1-16-4-23-2-7-5-13-10-18s-10-9-17-11c-7-3-15-5-23-5h-31v114h31c9 0 16-1 23-4s12-7 17-12 8-11 10-18c3-7 4-15 4-23zm211 42c0 7-2 14-5 19-3 6-7 11-13 14-5 4-11 7-18 9-8 2-15 3-23 3h-88V152h97c7 0 12 1 18 4 5 3 9 6 13 10 3 4 6 9 8 14s3 11 3 16c0 8-2 16-7 24-4 7-11 13-19 16 10 3 18 8 25 16 6 7 9 17 9 28zm-36-6c0-3-1-6-2-9s-2-5-4-7c-2-3-4-4-7-5-3-2-5-2-8-2h-55v45h53c3 0 6 0 9-1 3-2 5-3 7-5s4-5 5-7c1-3 2-6 2-9zm-76-93v43h47c6 0 11-2 16-6 4-3 6-9 6-16 0-6-2-12-6-15-4-4-8-6-14-6h-49z" fill="red" fill-rule="nonzero"/>
-        <path d="M881 824H649v-22h94c-12-9-20-19-25-30-6-11-9-23-9-36 0-24 9-44 26-61s38-25 62-25 45 8 62 25 26 37 26 61c0 14-3 26-9 37s-14 21-26 29h31v22zm-17-86c0-12-3-23-9-33s-14-19-24-24c-11-6-22-9-34-9s-23 3-34 9c-10 6-19 14-25 24s-9 21-9 32c0 12 3 23 9 34 6 10 14 19 24 24 10 6 22 9 34 9 20 0 36-7 49-19 13-13 19-29 19-47zM714 619v-22h24c-10-7-17-14-21-21-5-7-8-15-8-23 0-6 2-12 6-19l18 12c-2 4-3 8-3 11 0 7 3 14 9 21 6 6 15 11 27 15 10 3 29 4 58 4h57v22H714zm0-269h167v21h-29c11 9 19 19 25 30 5 12 8 24 8 37 0 24-9 44-26 61-17 16-38 25-62 25s-45-9-62-26-26-37-26-61c0-13 3-26 9-37s15-21 26-29h-30v-21zm16 86c0 12 3 23 9 33s14 18 25 24c10 6 22 9 33 9 12 0 23-3 34-9s19-14 25-24c6-11 9-21 9-33s-3-23-9-33c-6-11-14-19-24-25-10-5-21-8-34-8-19 0-35 6-48 19s-20 28-20 47zM526 875h167v21h-29c11 9 19 19 25 30 5 12 8 24 8 37 0 24-9 44-26 61-17 16-38 25-62 25s-45-9-62-26-25-37-25-61c0-13 3-26 8-37 6-11 15-21 27-29h-31v-21zm17 86c0 12 2 23 8 33s14 18 25 24 22 9 34 9c11 0 23-3 33-9 11-6 19-14 25-24 6-11 9-21 9-33s-3-23-9-33c-6-11-14-19-24-25-10-5-21-8-34-8-19 0-35 6-48 19s-19 28-19 47zm-39-637H337v-21h29c-11-9-19-19-25-30-5-11-8-24-8-37 0-24 9-44 26-60 17-17 38-26 62-26s45 9 62 26 25 37 25 61c0 13-2 26-8 37s-15 21-26 29h30v21zm-16-86c0-12-3-23-9-33s-14-18-25-24c-10-6-22-9-34-9-11 0-22 3-33 9s-19 14-25 25c-6 10-9 21-9 32 0 12 3 23 9 34 6 10 14 18 24 24s21 8 34 8c19 0 35-6 48-19 13-12 20-28 20-47zM341 874h167v21h-29c11 9 19 19 25 30 5 12 8 24 8 37 0 24-9 44-26 61-17 16-38 25-62 25s-45-9-62-26c-17-16-25-37-25-60 0-14 3-27 8-38 6-11 15-20 27-29h-31v-21zm17 86c0 12 2 23 8 33s14 18 25 24 22 9 34 9c11 0 23-3 33-9 11-6 19-14 25-24s9-21 9-33-3-23-9-33c-6-11-14-19-24-25-10-5-21-8-34-8-19 0-35 6-48 19s-19 28-19 47zm150-136H276v-22h94c-11-9-20-19-25-30-6-11-8-23-8-37 0-23 8-44 25-60 18-17 38-25 63-25 24 0 44 8 61 25s26 37 26 61c0 14-3 26-9 37-5 11-14 21-26 29h31v22zm-17-87c0-11-3-22-9-33-5-10-14-18-24-24-11-6-22-9-34-9s-23 3-34 9c-10 6-19 14-25 25-5 10-8 21-8 32 0 12 3 23 8 34 6 10 14 18 25 24 10 6 21 9 34 9 19 0 35-7 48-20 13-12 19-28 19-47zM341 619v-22h24c-9-7-16-14-21-21s-7-15-7-23c0-6 2-12 5-19l18 11c-1 5-2 9-2 12 0 7 2 14 8 20 6 7 15 12 28 16 9 2 29 4 57 4h57v22H341z" fill-rule="nonzero"/>
-        <path d="M341 349h167v22h-29c11 9 19 19 25 30 5 11 8 24 8 37 0 23-9 44-26 60-17 17-38 25-62 25s-45-8-62-25-25-37-25-61c0-13 3-26 8-37 6-11 15-21 27-29h-31v-22zm17 87c0 12 2 23 8 33s14 18 25 24 22 9 34 9c11 0 23-3 33-9 11-6 19-14 25-25 6-10 9-21 9-32 0-12-3-23-9-34-6-10-14-18-24-24s-21-8-34-8c-19 0-35 6-48 19-13 12-19 28-19 47zm104 214h231v21h-28c11 9 19 19 24 31 6 11 9 23 9 36 0 24-9 44-26 61-17 16-38 25-63 25-23 0-44-9-61-26-17-16-26-37-26-60 0-14 3-26 9-38 6-11 15-20 26-29h-95v-21zm81 86c0 12 3 23 9 33s14 18 25 24c10 6 21 9 33 9s23-3 34-9 19-14 25-24 9-21 9-33-3-23-9-33c-6-11-14-19-24-25-10-5-22-8-34-8-19 0-36 6-49 19-12 13-19 28-19 47z" fill-rule="nonzero"/>
-        <path d="M422.396 671.2v-21.378h53.66V671.2zm187.646 152.627V802.45h53.66v21.378z"/>
-        <path d="M526 349h167v22h-29c11 9 19 19 25 30 5 11 8 24 8 37 0 24-9 44-26 60-17 17-38 25-62 25s-45-8-62-25-25-37-25-61c0-13 3-26 8-37 6-11 15-21 27-29h-31v-22zm17 87c0 12 2 23 8 33s14 18 25 24 22 9 34 9c11 0 23-3 33-9 11-6 19-14 25-25 6-10 9-21 9-32 0-12-3-23-9-34-6-10-14-18-24-24s-21-8-34-8c-19 0-35 6-48 19-13 12-19 28-19 47z" fill-rule="nonzero"/>
-        <path d="M409.407 910.18V793.978h24V910.18zM596.34 710.578V561.944h24v148.634zM407.724 411.205V275.65h24v135.555zm380.602 481.688v-184.82h24v184.82zm0-501.52v-63.8h24v63.8z" fill="#fff"/>
-      </svg>
-      <h1></h1>
-      <p>Our website is under construction.</p>
-    </main>
-  </body>
+    <title>Home - Abracadabra DB</title>
+    <meta name="description" content="Time Series Database">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="assets/css/Article-Clean.css">
+    <link rel="stylesheet" href="assets/css/Article-List.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Phone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
+    <link rel="stylesheet" href="assets/css/Team-Boxed.css">
+</head>
+
+<body>
+    <div style="background-image: url(&quot;assets/img/book-abracadabra.jpg&quot;);background-position: center;background-size: cover;height: 420px;padding: 29px;">
+        <nav class="navbar navbar-light navbar-expand-md navigation-clean" style="padding: 10px;">
+            <div class="container"><img class="img-thumbnail bg-white border rounded-0 border-white shadow-none float-left justify-content-start align-items-center" src="assets/img/abracadabradb-line.png" style="width: 413px;"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div
+                    class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="tutorial.html">Tutorial</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="https://github.com/michalwidera/abracadabradb">Download</a></li>
+                    </ul>
+            </div>
+    </div>
+    </nav>
+    <div class="container text-center d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center"
+        style="width: 800;height: 250px;">
+        <div class="col text-left" style="width: 800px;height: 250px;">
+            <div class="row" style="width: 800;height: 220px;margin: 15px;padding: 0px;">
+                <div class="col"><img class="img-fluid" src="assets/img/abracadabradb-new.png"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <section class="text-center features-icons bg-light text-center" style="padding: 15px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                        <div class="d-flex features-icons-icon"><i class="icon-screen-desktop m-auto text-primary" data-bs-hover-animate="pulse"></i></div>
+                        <h3>Unique way of data processing</h3>
+                        <p class="lead mb-0">This system offers new method of data processing. Actually there is no other solution that handle data this way.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                        <div class="d-flex features-icons-icon"><i class="icon-layers m-auto text-primary" data-bs-hover-animate="pulse"></i></div>
+                        <h3>Deterministic and real time architeture</h3>
+                        <p class="lead mb-0">This system is created as fully deterministic and strict real time data processing engine. This feature is highly desired for time critical applications</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="mx-auto features-icons-item mb-5 mb-lg-0 mb-lg-3">
+                        <div class="d-flex features-icons-icon"><i class="icon-check m-auto text-primary" data-bs-hover-animate="pulse"></i></div>
+                        <h3>Prototype stage</h3>
+                        <p class="lead mb-0">Please notice that system is in protoype stage. &nbsp;The goal is&nbsp;to create new standard for time series processing query languages. Take, learn and spread across all other projects. Good ideas should be supported.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="showcase">
+        <div class="container-fluid p-0">
+            <div class="row no-gutters">
+                <div class="col-auto col-lg-6 text-center order-lg-2 text-white showcase-img"><span><img class="img-fluid" style="margin: 10px;width: 600px;padding: 7px;" src="assets/img/jump-start.svg" loading="lazy"></span></div>
+                <div class="col-lg-6 showcase-text" style="padding: 40px;">
+                    <h2 class="d-xl-flex align-items-xl-start">Jump Start</h2>
+                    <p class="lead d-xl-flex align-items-xl-start mb-0" style="padding: 0px;">This is first and fast use case. &nbsp;Use tmux for task switching.<br>There is a sequence of commands under Linux shell &nbsp;that compiles example query, starts query processor and show results.</p><code class="text-monospace d-xl-flex align-items-xl-start"
+                        style="margin: 5px;">sudo apt-get -y install gcc cmake libboost-all-dev make build-essential tmux<br>git clone https://github.com/michalwidera/abracadabradb.git<br>cd abracadabradb<br>cmake CMakeLists.txt; make<br>./build/xcompiler -q test/query-lnx.txt<br>tmux<br>./build/xabracadabra<br>[ctrl+B %]<br>./build/xqry -d<br>./build/xqry -s str1<br>[ctrl+B "]<br>./build/xqry -s str2<br></code></div>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-lg-6 text-white showcase-img" style="background-image: url(&quot;assets/img/abracadabradb-code.jpg&quot;);"><span></span></div>
+                <div class="col-lg-6 my-auto order-lg-1 showcase-text">
+                    <h2>Code that materialize some idea</h2>
+                    <p class="lead mb-0">Some ideas are worth spreading.<br>Some shoudn't be ...<br>When we encounter the first difficulties, we usually reject ideas that are difficult to understand from the beginning.<br>Build of this system took a couple of years and still
+                        attracts me. Lonely path of discovering was quite fascinating and addictive.&nbsp;I hope that you will find beuty of this solution as I found.<br></p><small class="float-right">Michal Widera, Dec. 2019</small></div>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image:url(&quot;assets/img/bg-showcase-3.jpg&quot;);"><span></span></div>
+                <div class="col-lg-6 my-auto order-lg-1 showcase-text">
+                    <h2>Hard things makes easy<br></h2>
+                    <h4>... but there is always a cost.<br></h4>
+                    <p class="lead mb-0">There are some processes and systems that need better support. Most of time series processing algorithms are quite complicated. &nbsp;This system should help creators to make code more clear and flexible.<br>But this system is not
+                        general purpose. Notice that document oriented or relationship&nbsp;data management process is not right task for this system.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 my-auto h-100 text-center text-lg-left">
+                    <ul class="list-inline mb-2">
+                        <li class="list-inline-item"><a href="about.html">About</a></li>
+                        <li class="list-inline-item"><span>⋅</span></li>
+                        <li class="list-inline-item"><a href="https://www.linkedin.com/in/michalwidera/">Contact</a></li>
+                        <li class="list-inline-item"><span>⋅</span></li>
+                        <li class="list-inline-item"><a href="privacy.html">Privacy Policy</a></li>
+                    </ul>
+                    <p class="text-muted small mb-4 mb-lg-0">© Abracadabra DB 2019. &nbsp;Streams Lab Michal Widera</p>
+                </div>
+                <div class="col-lg-6 my-auto h-100 text-center text-lg-right">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item"><a href="#"></a></li>
+                        <li class="list-inline-item"><a href="#"></a></li>
+                        <li class="list-inline-item"><a href="#"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+</body>
+
 </html>

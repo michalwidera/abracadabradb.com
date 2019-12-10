@@ -21,11 +21,11 @@
 <body>
     <div style="background-image: url(&quot;assets/img/book-abracadabra.jpg&quot;);background-position: center;background-size: cover;height: 420px;padding: 29px;">
         <nav class="navbar navbar-light navbar-expand-md navigation-clean" style="padding: 10px;">
-            <div class="container"><img class="img-thumbnail bg-white border rounded-0 border-white shadow-none float-left justify-content-start align-items-center" src="assets/img/abracadabradb-line.png" style="width: 413px;"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="container"><img class="img-thumbnail bg-white border rounded-0 border-white float-left justify-content-start align-items-center" src="assets/img/abracadabradb-line.png" style="width: 413px;"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                 <div
                     class="collapse navbar-collapse" id="navcol-1">
                     <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item" role="presentation"><a class="nav-link" href="tutorial.html">Tutorial</a></li>
+                        <li class="nav-item" role="presentation"><a class="nav-link" href="index.html">Home</a></li>
                         <li class="nav-item" role="presentation"><a class="nav-link" href="https://github.com/michalwidera/abracadabradb">Download</a></li>
                     </ul>
             </div>
@@ -44,37 +44,83 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <p class="text-center" style="padding: 12px;font-family: Lato, sans-serif;">Video Tutorials For Abracadabra DB</p>
+                    <p class="text-center border rounded-0 shadow-sm" style="padding: 12px;font-family: Lato, sans-serif;">Tutorials For Abracadabra DB<br></p>
+                    <p>Here you can find some video tutorials about Abracadabra DB Time Series Database system. I suggest to start from Session Record. Math basics is quite hard to a adoption, but at the end everyone who will intend to use that system should
+                        touch this. Apologies for low quality of these tutorials but this is not mine primary job role. I did my best to spread that idea. Hope it will be enough.</p>
                 </div>
                 <div class="col">
                     <div class="border rounded-0 shadow-lg">
-                        <ul class="nav nav-tabs">
-                            <li class="nav-item"><a class="nav-link active" role="tab" data-toggle="tab" href="#tab-1">Math Basics</a></li>
+                        <ul class="nav nav-tabs text-center">
+                            <li class="nav-item"><a class="nav-link text-monospace text-center border rounded-circle" role="tab" data-toggle="tab" href="#tab-end"><strong>✗</strong></a></li>
+                            <li class="nav-item"><a class="nav-link" role="tab" data-toggle="tab" href="#tab-1">Math Basics</a></li>
                             <li class="nav-item"><a class="nav-link" role="tab" data-toggle="tab" href="#tab-2">Query Language</a></li>
-                            <li class="nav-item"><a class="nav-link" role="tab" data-toggle="tab" href="#tab-3">Operator Mechanics</a></li>
+                            <li class="nav-item"><a class="nav-link active" role="tab" data-toggle="tab" href="#tab-3">Operator Mechanics</a></li>
+                            <li class="nav-item"><a class="nav-link" role="tab" data-toggle="tab" href="#tab-4">Session Record</a></li>
                         </ul>
                         <div class="tab-content">
-                            <div class="tab-pane active" role="tabpanel" id="tab-1">
+                            <div class="tab-pane fade" role="tabpanel" id="tab-1">
                                 <div class="row text-center" style="padding: 15px;">
-                                    <div class="col"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/McT_HoBElCM" width="560" height="315"></iframe></div>
+                                    <div class="col"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/McT_HoBElCM" width="560" height="315"></iframe>
+                                        <p class="d-md-flex flex-row align-items-md-end">This presentation show Math Basics required to undersand core behaviour of algebraic operators used in this system. This is quite hard to adapt. I suggest to skip this and return to this data at the end of course.<br>
+                                            <a
+                                                class="text-center" href="pdf/math-basics.pdf">Presentation - Math Basics.pdf</a>
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="tab-pane" role="tabpanel" id="tab-2">
+                            <div class="tab-pane fade" role="tabpanel" id="tab-2">
                                 <div class="row text-center" style="padding: 15px;">
-                                    <div class="col"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/opVlhm-K5Mw" width="560" height="315"></iframe></div>
+                                    <div class="col"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/opVlhm-K5Mw" width="560" height="315"></iframe>
+                                        <p class="d-md-flex align-items-md-end">This presentation covers area of basic implemented query language. This is mandatory to see if we want to start coding and using this system. &nbsp;<a href="pdf/query-language.pdf">Presentation Query Language.pdf</a></p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="tab-pane" role="tabpanel" id="tab-3">
+                            <div class="tab-pane fade show active" role="tabpanel" id="tab-3">
                                 <div class="row text-center" style="padding: 15px;">
-                                    <div class="col"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/fRW0sg9EgVM" width="560" height="315"></iframe></div>
+                                    <div class="col"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/fRW0sg9EgVM" width="560" height="315"></iframe>
+                                        <p class="d-md-flex align-items-md-end">Operator mechanics is presentation that try to show how different operators from introduced algebra works without mathematical jargon. Is it still quite hard to understand but I did my best. Hope this effort will
+                                            be helpful.<a href="pdf/operator-mechanics.pdf">Presentation - Operator Mechanics.pdf</a></p>
+                                    </div>
                                 </div>
                             </div>
+                            <div class="tab-pane fade" role="tabpanel" id="tab-4">
+                                <div class="row text-center" style="padding: 15px;">
+                                    <div class="col"><iframe allowfullscreen="" frameborder="0" src="https://www.youtube.com/embed/I-nd5m7KSK4" width="560" height="315"></iframe>
+                                        <p>This is record of my session with computer. This takes about 18 minutes of presentation how acutually system works and how I handle with it. This presentation should go at first. Because there is no math jargon
+                                            and we can see real data flowing and processing. I'm strongly suggest to strat from this point.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" role="tabpanel" id="tab-end"></div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <footer class="footer bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 my-auto h-100 text-center text-lg-left">
+                    <ul class="list-inline mb-2">
+                        <li class="list-inline-item"><a href="about.html">About</a></li>
+                        <li class="list-inline-item"><span>⋅</span></li>
+                        <li class="list-inline-item"><a href="https://www.linkedin.com/in/michalwidera/">Contact</a></li>
+                        <li class="list-inline-item"><span>⋅</span></li>
+                        <li class="list-inline-item"><a href="privacy.html">Privacy Policy</a></li>
+                    </ul>
+                    <p class="text-muted small mb-4 mb-lg-0">© Abracadabra DB 2019. &nbsp;Streams Lab Michal Widera</p>
+                </div>
+                <div class="col-lg-6 my-auto h-100 text-center text-lg-right">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item"><a href="#"></a></li>
+                        <li class="list-inline-item"><a href="#"></a></li>
+                        <li class="list-inline-item"><a href="#"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
